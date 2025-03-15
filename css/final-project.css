@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    font-family: 'Dancing Script', cursive;
+}
+main{
+    font-family: 'Ubuntu', sans-serif;
+}
+.nv-cl{
+    background-color:  rgb(133, 82, 234); 
+    box-shadow: 0px 15px 10px -15px grey; 
+}
+.clor{
+    background-color: #bfa8ed;
+}
+.dot{
+    list-style: none;
+    display: flex;
+}
+.dot>li{
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 8px;
+}
+@media (min-width:0px) and (max-width:991px){
+    .dot{
+        display: block;
+        padding:0px 8px 0px 40px;
+        font-size: 35px;
+    }
+}
+.fixe-imgg{
+    object-fit: cover;
+}
+@media (min-width:0px) and (max-width:991px){
+    .col{
+        padding: 0px 0px 15px 0px !important;
+        margin: 0px  !important;
+       
+    }
+}
