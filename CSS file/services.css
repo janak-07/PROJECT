@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width:1320px !important;
+    margin: 0 auto !important;
+}
+
+body {
+    background-image: url("./Images/back-img-2.jpg");
+    width: 100%;
+    height: 100%;
+    filter: blur(0.6);
+}
+
+.accordion {
+    opacity: 0.8;
+    height: 100vh !important;
+}
+
+.main-h2 h2 {
+    font-size: 45px !important;
+    font-weight: 700;
+    font-family: "Kalam", cursive;
+    font-style: normal;
+}
+
+li {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+
+.btn-padding {
+    padding: 16px 20px 16px 30px !important;
+}
+
+p {
+    font-size: 17px;
+    font-weight: 450;
+    font-style: italic;
+    text-shadow: 1px 2px 7px rgba(128, 0, 0, 1);
+}
+
+.accordion-item {
+    background-color: black;
+    color: white;
+    border: 3px solid lightblue;
+    font-weight: 500;
+}
+
+.button span {
+    padding-left: 6px;
+}
+
+.button {
+    padding-top: 10px;
+    line-height: 52px;
+}
+
+.button a {
+    color: black;
+    text-decoration: none;
+}

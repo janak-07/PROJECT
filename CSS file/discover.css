@@ -1,0 +1,199 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1320px !important;
+    margin: 0 auto !important;
+}
+
+body {
+    background-image: linear-gradient(90deg, #E1F0DA, #D4E7C5, #BFD8AF, #99BC85);
+}
+
+.j-c-between {
+    justify-content: space-between;
+    display: flex;
+}
+
+.j-c-around {
+    justify-content: space-around;
+    display: flex;
+}
+
+/*                                       variety                                         */
+.variety-sec {
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(90deg, #E1F0DA, #D4E7C5, #BFD8AF, #99BC85);
+}
+
+.img-border {
+    border: 3px solid rgba(0, 128, 0, 0.542);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img-border img {
+    padding: 10px;
+}
+
+.border {
+    border-left: 4px solid green !important;
+}
+
+.variety span {
+    position: relative;
+    height: 60px;
+    width: 40px;
+    height: 40px;
+    background: rgb(134, 211, 0);
+    background: linear-gradient(227deg, rgba(134, 211, 0, 1) 50%, rgba(121, 188, 4, 1) 100%);
+    border-radius: 100%;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 80px;
+    line-height: 40px;
+    display: table;
+}
+
+.variety span::after {
+    width: 2px;
+    height: 50px;
+    content: "";
+    background: rgb(134, 211, 0);
+    background: linear-gradient(227deg, rgba(134, 211, 0, 1) 50%, rgba(121, 188, 4, 1) 100%);
+    position: absolute;
+    top: -50px;
+    left: 20px;
+}
+
+.gap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.round-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: 0.3s 0s linear;
+}
+
+.round-img:hover {
+    transform: scale(1.2);
+}
+
+.variety-h2 {
+    font-size: 45px !important;
+    font-weight: 700;
+    font-family: "Kalam", cursive;
+    font-style: normal;
+}
+
+.variety-p {
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    text-shadow: 1px 2px 7px lightgreen;
+}
+
+.button-a a {
+    color: black;
+    padding-left: 6px;
+}
+
+.button-a p {
+    display: inline-block;
+    padding-left: 6px;
+}
+
+.img-spn {
+    line-height: 48px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.hbr-p {
+    color: grey;
+}
+
+.sec-1-img {
+    object-fit: contain;
+}
+
+.gap-2 {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.gap-3 {
+    flex-wrap: wrap;
+
+}
+
+.cannabis-h2 {
+    font-size: 45px !important;
+    font-weight: 700;
+    font-family: "Kalam", cursive;
+    font-style: normal;
+}
+
+.cannabis-p {
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    text-shadow: 1px 2px 7px lightgreen;
+}
+
+.main-img-conbis {
+
+    border-radius: 30px;
+}
+
+.connbis-sec {
+    background-image: linear-gradient(90deg, #E1F0DA, #D4E7C5, #BFD8AF, #99BC85);
+    border-top: 3px solid black;
+}
+
+.img-connbis {
+    width: 450px;
+    height: 450px;
+    object-fit: contain;
+}
+
+.main-cannbis {
+    border-bottom: 3px solid black;
+}
+
+h4 {
+    font-size: 45px !important;
+    font-weight: 700;
+    font-family: "Kalam", cursive;
+    font-style: normal;
+
+}
+
+li {
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    text-shadow: 1px 2px 7px grey;
+}
+
+ol {
+    border: 3px solid black;
+    border-radius: 30px;
+}
+
+@media(max-width:400px) {
+    .img-connbis {
+        width: 300px !important;
+        height: 300px !important;
+    }
+}

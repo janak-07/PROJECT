@@ -1,0 +1,898 @@
+/*                                       Common CSS                                        */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width:1320px !important;
+    margin: 0 auto !important;
+}
+
+body {
+    background-image: linear-gradient(90deg, #E1F0DA, #D4E7C5, #BFD8AF, #99BC85);
+}
+
+
+.j-c-between {
+    justify-content: space-between;
+    display: flex;
+}
+
+.j-c-around {
+    justify-content: space-around;
+    display: flex;
+}
+
+.background {
+    position: absolute;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    width: 100% !important;
+    height: 91.5vh;
+}
+
+
+
+/*                                      Header CSS                                       */
+.navbar {
+    background-image: linear-gradient(90deg, #000000, #000000, #00000039);
+    padding: 0px !important;
+    margin: 0px !important;
+    height: 100px !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    backdrop-filter: blur(5px);
+    width: 100%;
+}
+
+.navbar-collapse.show {
+    background-image: linear-gradient(90deg, #000000, #000000, #00000089);
+    border-radius: 0px 0px 160px 160px;
+    transition: 0.5s 0s linear;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.modal-backdrop.show {
+    opacity: 1 !important;
+    backdrop-filter: blur(5px) !important;
+    background-color: hsla(0, 0%, 0%, 0.6) !important;
+}
+
+.navbar-toggler {
+    background-color: green !important;
+}
+
+.header-logo {
+    width: 150px;
+    object-fit: contain;
+    height: 100px;
+}
+
+.nav-link {
+    padding: 0px 10px 0px 10px !important;
+    text-align: center;
+}
+
+.nav-item {
+    padding: 0px 10px 0px 10px !important;
+}
+
+.serch-header {
+    text-align: center;
+}
+
+.serch-header-a {
+    color: white;
+    padding: 0px 18px 0px 18px !important;
+}
+
+.navbar-nav .nav-item a {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.nav-underline {
+    display: inline-block;
+    position: relative;
+    color: white;
+}
+
+.nav-underline::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s linear;
+}
+
+.nav-underline:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/*                                      MAIN START                                       */
+.main {
+
+    width: 100% !important;
+    height: 120vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../Images/1730.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    clip-path: ellipse(80% 57% at 50% 40%);
+    overflow: hidden;
+}
+
+.pt-main {
+    padding-top: 100px !important;
+}
+
+.main-1 {
+    color: white;
+    margin: auto !important;
+    align-items: center;
+    height: 85vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-1-content {
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.main-1-p1 {
+    font-size: 35px;
+    flex-wrap: wrap;
+    font-weight: 500;
+}
+
+.main-2-p1 {
+    font-size: 55px;
+    flex-wrap: wrap;
+    background: -webkit-linear-gradient(150deg, rgb(7, 255, 7), rgb(254, 254, 254), rgb(0, 255, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+
+}
+
+.main-3-p1 {
+    font-size: 20px;
+    flex-wrap: wrap;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.main-btn {
+    font-size: 18px !important;
+    padding: 10px;
+    margin-top: 13px;
+    font-weight: 500 !important;
+}
+
+.main-btn a {
+    color: black;
+    text-decoration: none;
+}
+
+.main-btn:hover {
+    box-shadow: 0px 0px 3px #ffffff4a, 0px 0px 10px lightgreen, 0px 0px 20px #ffffff;
+    font-weight: 600;
+    transition: 0.2s all linear;
+    background-color: white !important;
+}
+
+/*                                      BENEFIT SECTION START                                        */
+.benefit {
+    height: auto !important;
+    width: 100%;
+}
+
+.benefit-p {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.gap {
+    display: grid;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.benefit-2 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.benefit-3 {
+    font-size: 39px;
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0px !important;
+}
+
+.benefit-4 {
+    font-size: 20px;
+    color: rgba(76, 76, 76, 0.789);
+    font-style: italic;
+}
+
+.benefit-5 {
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.benefit-col-1 {
+    box-shadow: rgba(20, 15, 50, 0.18) 0px 48px 100px 0px;
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.213), lightgrey, rgba(255, 255, 255, 0.213));
+    border-radius: 30px;
+}
+
+.benifit-btn {
+    font-size: 18px !important;
+    padding: 10px;
+    margin-top: 13px;
+    font-weight: 500 !important;
+    border: 2px solid black !important;
+}
+
+.benifit-btn:hover {
+    box-shadow: 0px 0px 3px black, 0px 0px 10px rgba(0, 0, 0, 0.495), 0px 0px 30px rgba(0, 0, 0, 0.437);
+    font-weight: 600;
+    transition: 0.2s all linear;
+    background-color: white !important;
+}
+
+.bene-img-1 {
+    transition: 0.5s 0s linear;
+}
+
+.bene-img-1:hover {
+    transform: translateY(-5px);
+
+}
+
+
+/*                                      CARD CSS Start                                       */
+.card-header {
+    text-align: center;
+}
+
+.card-header h2 {
+    font-size: 50px;
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.card-header p {
+    font-size: 20px;
+    font-style: italic;
+    padding: 0px !important;
+    color: rgba(76, 76, 76, 0.789);
+}
+
+.card-section {
+    width: 100% !important;
+    height: auto !important;
+
+}
+
+.gap-card {
+    display: grid;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.gap-card>div {
+    width: 300px !important;
+    height: 250px !important;
+}
+
+.card-bg-color {
+    background-image: linear-gradient(0deg, rgba(74, 141, 129, 0.354) 0%, rgba(123, 183, 173, 0.654) 100%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 8px;
+    height: 250px !important;
+    border-radius: 30px;
+    height: auto !important;
+    transition: 0.5s 0s linear !important;
+}
+
+.card-p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card-p2 {
+    color: #4c4c4c;
+}
+
+.cc-5 {
+    width: 123px !important;
+    height: 123px !important;
+}
+
+.card-bg-color:hover {
+    transform: scale(1.03);
+    overflow: hidden;
+   
+}
+
+.blur:hover .card-bg-color {
+    filter: blur(3px);
+}
+
+.blur .card-bg-color:hover {
+    filter: blur(0px);
+}
+
+
+/*                                          Problem CSS Start                                        */
+.problem-section {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.problem-header {
+    text-align: center;
+}
+
+.problem-header h2 {
+    font-size: 50px;
+    
+    margin-bottom: 0px;
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.problem-header p {
+    font-size: 20px;
+    padding: 0px !important;
+    font-style: italic;
+    color: rgba(76, 76, 76, 0.789);
+}
+
+.problem-p-h4 {
+    border-left: 3px solid red;
+}
+
+.problem-p-h4>h4 {
+    padding: 0px 0px 0px 6px;
+    font-size: 30px;
+}
+
+.problem-p-h4>p {
+    padding: 0px 0px 0px 6px;
+    margin: 0px;
+    font-size: 25px;
+}
+
+.problem-p2 {
+    padding-top: 15px;
+    line-height: 21px;
+}
+
+.iconn {
+    object-fit: contain;
+    padding-right: 10px;
+}
+
+.iconn-content {
+    padding: 6px 0px 6px 0px;
+}
+
+.iconn-content>p {
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.problem-imagee {
+    text-align: center;
+}
+
+.problem-imagee>img {
+    height: 480px !important;
+}
+
+.problem-section {
+    position: relative;
+}
+
+.problem-section::before {
+    content: "";
+    position: absolute;
+    background-image: url("../Images/leaf-2.png");
+    width: 100% !important;
+    height: 400px !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 170px !important;
+
+}
+
+
+/*                                          Counter CSS Start                                        */
+.counter {
+    width: 100% !important;
+    height: auto !important;
+    padding: 60px 0px 60px 0px;
+}
+
+.countr-h2 {
+    text-align: center;
+}
+
+.countr-h2 p {
+    font-size: 20px;
+    padding: 0px !important;
+    font-style: italic;
+    color: rgba(76, 76, 76, 0.789);
+}
+
+.counter-h5 {
+    font-size: 30px;
+    font-weight: 600 !important;
+}
+
+.counter-p {
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 6px;
+}
+
+.countr-h2 h2 {
+    font-size: 50px;
+   
+    margin-bottom: 0px;
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+
+
+}
+
+.counter-1 {
+    width: 23.8%;
+    text-align: center;
+    background-color: white;
+    padding-top: 30px;
+    border-radius: 30px;
+}
+
+.counter-gap {
+    display: grid;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.counter-gap>div {
+    width: 300px !important;
+    height: 250px !important;
+}
+
+.counter-no-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.counter-i {
+    line-height: 39px !important;
+    padding-left: 8px !important;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/*                                          Product CSS Start                                        */
+.product{
+    width: 100% !important;
+}
+.product-h2 {
+    text-align: center;
+}
+
+.product-h2 h2 {
+    font-size: 50px;
+    
+    margin-bottom: 0px;
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.product-h2 p {
+    font-size: 20px;
+    padding: 0px !important;
+    font-style: italic;
+    color: rgba(76, 76, 76, 0.789);
+
+}
+
+.product {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.product-gap {
+    display: grid;
+    gap: 32px;
+    flex-wrap: wrap;
+
+}
+
+.product-content {
+    width: 300px;
+    height: auto !important;
+    text-align: center;
+    box-shadow: rgba(20, 15, 50, 0.18) 0px 48px 100px 0px;
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.213), lightgrey, rgba(255, 255, 255, 0.213));
+    border-radius: 30px;
+    padding: 15px 6px 20px 6px;
+    transition: 0.3s 0s linear;
+}
+
+
+
+.product-img:hover {
+    transform: scale(1.1);
+
+}
+
+.modal-body p {
+    text-align: left !important;
+}
+
+.product-img {
+    width: 250px;
+    height: 250px;
+    transition: 0.5s 0s linear;
+
+}
+
+.butn-modal {
+    font-size: 18px !important;
+    padding: 10px;
+    margin-top: 13px;
+    font-weight: 500 !important;
+    border: 2px solid black !important;
+
+}
+
+.butn-modal:hover {
+    box-shadow: 0px 0px 3px black, 0px 0px 10px rgba(0, 0, 0, 0.495), 0px 0px 30px rgba(0, 0, 0, 0.437);
+    font-weight: 600;
+    transition: 0.2s all linear;
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.213), lightgrey, rgba(255, 255, 255, 0.213)) !important;
+}
+
+.modall-h1 {
+    font-size: 30px !important;
+    font-weight: 700;
+
+}
+
+.btnn-close {
+    font-size: 18px !important;
+    padding: 10px;
+    margin-top: 13px;
+    font-weight: 500 !important;
+    border: 2px solid black !important;
+    background-color: white !important;
+}
+
+.btnn-close:hover {
+    box-shadow: 0px 0px 3px black, 0px 0px 10px rgba(0, 0, 0, 0.495), 0px 0px 30px rgba(0, 0, 0, 0.437);
+    font-weight: 600;
+    transition: 0.3s all linear;
+    background-color: rgba(0, 0, 0, 0.688) !important;
+    color: white !important;
+    font-weight: 600 !important;
+}
+
+/*                                      Delivery CSS Start                                      */
+.delivery {
+    width: 100% !important;
+    height: auto !important;
+    padding: 50px 0px 50px 0px;
+}
+
+.delivery-h2 h2 {
+    font-size: 50px;
+   
+    margin-bottom: 0px;
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.delivery-h2 p {
+    font-size: 20px;
+    font-style: italic;
+    color: rgba(76, 76, 76, 0.789);
+}
+
+.delivery-gap {
+    display: grid;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.delivery-content {
+    width: 189px !important;
+    height: 200px;
+    text-align: center;
+    margin: auto !important;
+
+}
+
+.delivery-img:hover {
+    transform: translateY(-8px);
+   
+    background: #efc360;
+}
+
+.delivery-img {
+    border-radius: 50% !important;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    margin: auto;
+    transition: 0.2s 0s linear;
+}
+
+.delivery-p {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 15px 0px 0px 0px !important;
+
+}
+
+/*                                      Footer CSS Start                                         */
+
+.gif {
+    font-size: 60px !important;
+    text-align: center;
+    background-image: url("https://media2.giphy.com/media/3oEdv5SY4LBHUBe2o8/giphy.webp?cid=ecf05e476u4fqk7wqgrzh3tt7s7g174c5w7mvc5w0e4dwuw3&ep=v1_gifs_related&rid=giphy.webp&ct=g");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.logo-gif p {
+    text-align: center;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.footer {
+    width: 100% !important;
+    height: auto !important;
+    padding: 50px 0px 50px 0px !important;
+    border-top: 2px solid black;
+    overflow: hidden;
+}
+
+.footer-gap {
+    display: grid;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.ftr-icon {
+    object-fit: contain;
+    padding-right: 8px !important;
+}
+
+.ftr-icon-p {
+    margin: 0px !important;
+    /* transition: 0.3s 0s linear; */
+}
+
+.ftr-icon-p a {
+    color: black;
+    text-decoration: none !important;
+}
+.ftr-icon-p:hover{
+ 
+    transform: translateX(6px);
+}
+.ftrr-a:hover{
+    color:green;
+    font-weight: 500;
+    text-shadow: 1px 2px 7px lightblue;
+}
+
+.footer-child-div {
+    width: 300px !important;
+    text-align: center;
+    margin: 0px !important;
+    height: 250px !important;
+    text-align: left;
+}
+
+.footer-form {
+    background-color: rgba(0, 0, 0, 0);
+    padding-left: 20px;
+    padding-right: 50px;
+    border-bottom: 3px solid !important;
+    border-color: black !important;
+    color: black !important;
+    border: none;
+    border-radius: 30px !important;
+    padding: 0px 0px 0px 10px !important;
+    height: 40px !important;
+}
+
+.img-p {
+    padding: 5px 0px 5px 0px !important;
+}
+
+.mail-icn {
+    font-size: 25px;
+}
+
+.email-p p {
+    padding: 15px 0px 15px 0px !important;
+}
+
+.ftr-submit {
+    font-size: 18px !important;
+    padding: 10px;
+    margin-top: 13px;
+    font-weight: 500 !important;
+    border-radius: 30px;
+    padding: 0px 5px 0px 5px;
+    margin: 0px 0px 0px 10px !important;
+}
+
+.ftr-submit:hover {
+    box-shadow: 0px 0px 3px black, 0px 0px 10px rgba(0, 0, 0, 0.495), 0px 0px 30px rgba(0, 0, 0, 0.437);
+    font-weight: 600;
+    transition: 0.2s all linear;
+    background-color: white !important;
+}
+
+.footer {
+    position: relative;
+   
+}
+
+.footer::before {
+    content: "";
+    position: absolute;
+    background-image: url("../Images/ftr-leaf-3.png");
+    width: 300px !important;
+    height: 300px !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.3;
+    left: 20%;
+    z-index: -1;
+}
+
+.social {
+    font-size: 24px;
+}
+
+.social-icn {
+    padding-top: 28px;
+}
+
+.social-icn a {
+    color: black;
+}
+
+.first:hover {
+    background: -webkit-linear-gradient(90deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.four:hover {
+    color: blue;
+}
+
+.two:hover {
+    color: rgb(29, 161, 242);
+}
+
+.three:hover {
+    color: rgb(205, 32, 31);
+}
+
+.frs-h2-ftr {
+    padding: 0px 0 8px;
+    position: relative;
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35px;
+}
+
+
+.frs-h2-ftr::before {
+    content: "";
+    position: absolute;
+    right: 50%;
+    bottom: 7px;
+    width: 110px;
+    height: 14px;
+    transform: skew(-12deg) translateX(-50%);
+    background: radial-gradient(green 9.6%, lightgreen 93.6%);
+    z-index: -1;
+    opacity: 0.5;
+
+}
+
+.frs-h2-ftr-2 {
+    padding: 0px 0 8px;
+    position: relative;
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35px;
+
+}
+
+.frs-h2-ftr-2::before {
+    content: "";
+    position: absolute;
+    right: 75%;
+    bottom: 7px;
+    width: 60px;
+    height: 14px;
+    transform: skew(-12deg) translateX(-50%);
+    background: radial-gradient(green 9.6%, lightgreen 93.6%);
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.frs-h2-ftr-3 {
+    padding: 0px 0 8px;
+    position: relative;
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35px;
+}
+
+.frs-h2-ftr-3::before {
+    content: "";
+    position: absolute;
+    right: -5%;
+    bottom: 7px;
+    width: 220px;
+    height: 14px;
+    transform: skew(-12deg) translateX(-50%);
+    
+    background: radial-gradient(green 9.6%, lightgreen 93.6%);
+    z-index: -1;
+    opacity: 0.5;
+
+}
+.ftr-btn{
+    padding: 10px !important;
+    margin-left: 25px;
+    border-radius: 20px;
+}
